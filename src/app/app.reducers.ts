@@ -33,7 +33,10 @@ const reducers = {
   example: exampleReducer
 };
 
-export const developmentReducer: ActionReducer<AppState> = compose(storeFreeze, combineReducers)(reducers); ;
+export const developmentReducer: ActionReducer<AppState> = compose(
+  storeFreeze,
+  combineReducers
+)(reducers);
 const productionReducer: ActionReducer<AppState> = combineReducers(reducers);
 
 /**

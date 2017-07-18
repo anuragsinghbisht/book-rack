@@ -57,5 +57,24 @@
     "ts-node": "~3.0.4",
     "tslint": "~5.3.2",
     "typescript": "~2.3.3"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuragsinghbisht/book-rack.git"
+  },
+  "keywords": [
+    "angular-cli",
+    "ng2",
+    "typescript",
+    "travis-ci",
+    "@ngrx",
+    "redux"
+  ],
+  "author": "Anurag Singh Bisht <anuragsinghbisht@outlook.com> (https://github.com/anuragsinghbisht)",
+  "bugs": {
+    "url": "https://github.com/anuragsinghbisht/book-rack/issues"
+  },
+  "homepage": "https://github.com/anuragsinghbisht/book-rack#readme"
 }
