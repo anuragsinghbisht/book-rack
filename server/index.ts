@@ -1,7 +1,9 @@
-import app from './App';
+import app from './app';
+import config from './config/index.config';
+import * as mongoose from 'mongoose';
 
-const PORT = process.env.PORT || 8080;
+mongoose.connect(config.db.url);
 
-app.listen(PORT, () => {
-  console.log(`Server started at port ${PORT}`);
+app.listen(config.port, () => {
+  console.log(`Server started at port ${config.port}`);
 });
